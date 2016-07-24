@@ -1,0 +1,48 @@
+#openings{
+  width:100%;
+  /*border: 2px solid black;
+  border-collapse: collapse;*/
+  padding: 5px;
+  margin-bottom: 20px;
+  text-align: left;
+  margin-left: 0;
+
+
+}
+
+.job .box{
+  /*height: 220px;*/
+}
+.box{
+  border-right: 1px solid black;
+}
+.job{
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  display: flex;
+  column-count: 4;
+}
+.heading{
+  border: 1px solid black;
+  border-right: none;
+  display: flex;
+  column-count: 4;
+
+}
+
+
+
+table, th, td {
+    border: 1px solid black;
+}
+
+table#openings tr:nth-child(even) {
+    background-color: #eee;
+}
+table#openings tr:nth-child(odd) {
+   background-color:#fff;
+}
+table#openings th {
+    background-color: black;
+    color: white;
+}

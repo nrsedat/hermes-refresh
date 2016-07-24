@@ -1,0 +1,43 @@
+.update{
+  border-top: 2px solid black;
+  border-bottom: 1px solid black;
+  margin-top: 20px;
+  padding: 5px;
+}
+.cont {
+    position: relative;
+    overflow: hidden;
+}
+#feeds {
+    position: relative;
+
+}
+
+input[type="text"] , input[type="password"]{
+  border: 1px solid black;
+}
+
+.img-link{
+  margin-top: 40px;
+  padding-left:50px;
+  padding-right:50px;
+
+}
+.img-links{
+ /*margin: 10px;*/
+ width:270px;
+ max-width: 100%;
+}
+
+.more-details{
+float: right;
+margin-top: 15px;
+margin-bottom: 50px;
+}
+.more-desc{
+margin-top: 20px;
+}
+
+.how-deliver {
+  float: right;
+}

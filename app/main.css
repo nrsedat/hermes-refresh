@@ -1,0 +1,134 @@
+body, html{
+  max-width: 100%;
+  overflow-x: hidden;
+
+}
+.main{
+  margin: 15px;
+	font-family: arial;
+	font-size: 11px;
+  color: black;
+	line-height: 16px;
+	letter-spacing: 1px;
+  text-align: justify;
+  height: 100%;
+
+}
+.main-content{
+  margin: 15px;
+  font-family: arial;
+  font-size: 14px;
+  color: black;
+  line-height: 20px;
+  letter-spacing: 1px;
+  text-align: justify;
+  height: 100%;
+}
+.hermes-logo{
+  padding-right: 0;
+  height: 122px;
+
+}
+.flash{
+  padding-left: 0;
+  height: 122px;
+
+}
+.welcome-image{
+  margin: 15px;
+}
+
+#menu{
+  color: #FFFFFF;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #FFFFFF;
+
+}
+.navbar-default .navbar-toggle:hover{
+  background-color: black;
+
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #FFFFFF;
+}
+.navbar-default .navbar-toggle:focus{
+  background-color: transparent;
+}
+.nav.navbar-nav li:hover{
+  background-color: black;
+}
+
+.nav.navbar-nav li:hover a{
+color: white;
+}
+
+.nav.navbar-nav li a{
+ color: white;
+ font-weight: bold;
+}
+
+#menu:hover{
+    background-color: black;
+}
+
+.navbar-main {
+  background-color: #54a0e8;
+
+}
+
+.pages{
+  margin-top: 200px;
+  text-align: justify;
+}
+
+
+.footer {
+  position: relative;
+  margin-top: -10px; /* negative value of footer height */
+  clear:both;
+  padding-top:10px;
+  padding-bottom: 10px;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+  background-color: #54a0e8;
+
+}
+
+.login{
+  border: 1px solid black;
+  height: 100%;
+  padding-top: 15px;
+  margin-right:  5px;
+  text-align: center;;
+
+}
+
+.loginid{
+  font-weight: normal;
+}
+
+#login1 {
+  float: right;
+  margin-right: 15px;
+}
+#forgotpwd {
+
+  float: left;
+  margin-left: 15px;
+}
+
+.welcome{
+  text-align: center;
+}
+#Hermes{
+  color: #0077b3;
+}
+.legal{
+  margin-left: 20px;
+  float: left;
+  font-weight: bold;
+  color: white;
+}
