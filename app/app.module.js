@@ -10,5 +10,6 @@ angular.module('hermesApp', [
   'opportunities',
   'approach',
   'aboutus',
+  'contactus',
   'legal'
 ]);

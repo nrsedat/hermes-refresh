@@ -26,6 +26,9 @@ angular.
         when('/aboutus', {
           template: '<aboutus></aboutus>'
         }).
+        when('/contactus', {
+          template: '<contactus></contactus>'
+        }).
         when('/legal', {
           template: '<legal></legal>'
         }).

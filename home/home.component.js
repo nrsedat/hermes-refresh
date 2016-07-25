@@ -1,4 +1,5 @@
 'use strict';
+
 angular.module('home', [
   'ngRoute'
 ]);
@@ -6,5 +7,10 @@ angular.module('home', [
 angular.
   module('home').
   component('home', {
-    templateUrl: 'home/home.html'}
+    templateUrl: 'home/home.html',
+    controller: function(){
+      //ticker();
+      HT.ticker();
+      //$(window).trigger('home.loaded');
+    }}
   );
