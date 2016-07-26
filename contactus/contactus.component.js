@@ -6,5 +6,9 @@ angular.module('contactus', [
 angular.
   module('contactus').
   component('contactus', {
-    templateUrl: 'contactus/contactus.html'}
+    templateUrl: 'contactus/contactus.html',
+    controller: function(){
+      init_map();
+    }
+    }
   );

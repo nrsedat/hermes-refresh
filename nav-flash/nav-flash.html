@@ -1,0 +1,60 @@
+<img ng-if="$ctrl.url" class="col-sm-6 flash" src="image/top_strip1.jpg" height="122">
+<object class="flash hidden-xs" ng-class="{'col-sm-6':$ctrl.url}" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width=100%>
+  <param name="movie" value="image/header.swf">
+  <param name="quality" value="high">
+  <param name="scale" value="exactfit">
+<div ng-switch="$ctrl.url">
+  <div ng-switch-when="whyus">
+		<embed src="image/whyus.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width=100% height="122" scale="exactfit"></embed>
+	</div>
+  <div ng-switch-when="services">
+    <embed src="image/services.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width=100% height="122" scale="exactfit"></embed>
+  </div>
+  <div ng-switch-when="clients">
+    <embed src="image/clients.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width=100% height="122" scale="exactfit"></embed>
+  </div>
+  <div ng-switch-when="opportunities">
+    <embed src="image/opportunity.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width=100% height="122" scale="exactfit"></embed>
+  </div>
+  <div ng-switch-when="approach">
+    <embed src="image/metdlgy.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width=100% height="122" scale="exactfit"></embed>
+  </div>
+  <div ng-switch-when="aboutus">
+    <embed src="image/whyus.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width=100% height="122" scale="exactfit"></embed>
+  </div>
+  <div ng-switch-when="contactus">
+    <embed src="image/contactus.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width=100% height="122" scale="exactfit"></embed>
+  </div>
+  <div ng-switch-default>
+    <embed src="image/header.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="100%" height="122" scale="exactfit"></embed>
+  </div>
+</div>
+</object>
+
+	<!-- <div ng-switch-when="whyus">
+		<img class="col-xs-6 flash" src="image/top_strip1.jpg" height="122">
+		<object class="col-xs-6 flash" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width=100%>
+		<param name="movie" value="image/whyus.swf">
+		<param name="quality" value="high">
+		<param name="scale" value="exactfit">
+		<embed src="image/whyus.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width=100% height="122" scale="exactfit"></embed>
+		</object>
+	</div>
+  <div ng-switch-when="services">
+    <img class="col-xs-6 flash" src="image/top_strip1.jpg" height="122">
+    <object class="col-xs-6 flash" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width=100%>
+        <param name="movie" value="image/services.swf">
+        <param name="quality" value="high">
+        <param name="scale" value="exactfit">
+        <embed src="image/services.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width=100% height="122" scale="exactfit"></embed>
+    </object>
+  </div>
+  <div ng-switch-default>
+    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="100%">
+    <param name="movie" value="image/header.swf">
+    <param name="quality" value="high">
+    <param name="scale" value="exactfit">
+    <embed src="image/header.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="100%" height="122" scale="exactfit"></embed>
+    </object>
+  </div> -->
+</div>
