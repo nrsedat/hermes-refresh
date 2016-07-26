@@ -18,7 +18,7 @@
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="row">
       <img class="hermes-logo col-sm-2 col-xs-4" src="image/logo_hm.jpg" alt="HERMES Logo">
-      <div class="flash col-sm-10">
+      <div class="flash col-sm-10 col-xs-8">
         <nav-flash></nav-flash>
        </div>
     </div>
@@ -30,12 +30,14 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#/" id="menu" >Home</a>
+        <a class="navbar-brand hidden-xs" href="#/" id="menu" >Home</a>
+        <span class="navbar-brand visible-xs"><current-page-title></current-page-title></span>
       </div>
       <div class="collapse navbar-collapse bs-example-navbar-collapse-1">
         <!--<a class="navbar-brand" href="#/" id="menu" >Home</a>--->
 
         <ul class="nav navbar-nav navbar-right" >
+          <li><a class="visible-xs" href="#/" id="menu" >Home</a>
           <li><a href="#/whyus">Why Us</a></li>
           <li><a href="#/services">Services</a></li>
           <li><a href="#/clients">Clients</a></li>
@@ -70,6 +72,7 @@
 <script src="contactus/contactus.component.js"></script>
 <script src="legal/legal.component.js"></script>
 <script src="nav-flash/nav-flash.component.js"></script>
+<script src="current-page-title/current-page-title.component.js"></script>
 <script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyCl9sZRI3pCy832DF3XsmNNjjeBpQAUKR8&v=3.exp'></script>
 </body>
 </html>

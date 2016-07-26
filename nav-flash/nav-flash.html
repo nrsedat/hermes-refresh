@@ -1,4 +1,5 @@
-<img ng-if="$ctrl.url" class="col-sm-6 flash" src="image/top_strip1.jpg" height="122">
+<img ng-if="$ctrl.url" class="col-sm-6 flash" src="image/top_strip1.jpg" height="122" width="100%">
+<img ng-if="!$ctrl.url" class="visible-xs flash" src="image/top_strip1.jpg" height="122" width="100%">
 <object class="flash hidden-xs" ng-class="{'col-sm-6':$ctrl.url}" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width=100%>
   <param name="movie" value="image/header.swf">
   <param name="quality" value="high">
