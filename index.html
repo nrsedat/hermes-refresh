@@ -14,46 +14,52 @@
 <link href="legal/legal.css" rel="stylesheet">
 </head>
 <!-- <body class="container-fluid"> -->
-<body>
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="row">
-      <img class="hermes-logo col-sm-2 col-xs-4" src="image/logo_hm.jpg" alt="HERMES Logo">
-      <div class="flash col-sm-10 col-xs-8">
-        <nav-flash></nav-flash>
-       </div>
-    </div>
-    <div class="container-fluid navbar-main">
-       <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"  data-target=".bs-example-navbar-collapse-1" >
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand hidden-xs" href="#/" id="menu" >Home</a>
-        <span class="navbar-brand visible-xs"><current-page-title></current-page-title></span>
-      </div>
-      <div class="collapse navbar-collapse bs-example-navbar-collapse-1">
-        <!--<a class="navbar-brand" href="#/" id="menu" >Home</a>--->
+<body ng-controller="MainController">
+  <div id="wrapper">
+    <div id="content-wrapper">
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="row">
+          <img class="hermes-logo col-sm-2 col-xs-4" src="image/logo_hm.jpg" alt="HERMES Logo">
+          <div class="flash col-sm-10 col-xs-8">
+            <nav-flash></nav-flash>
+           </div>
+        </div>
+        <div class="container-fluid navbar-main">
+           <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"  data-target=".bs-example-navbar-collapse-1" >
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand hidden-xs" href="#/" id="menu" >Home</a>
+            <span class="navbar-brand visible-xs"><current-page-title></current-page-title></span>
+          </div>
+          <div class="collapse navbar-collapse bs-example-navbar-collapse-1">
+            <!--<a class="navbar-brand" href="#/" id="menu" >Home</a>--->
 
-        <ul class="nav navbar-nav navbar-right" >
-          <li><a class="visible-xs" href="#/" id="menu" >Home</a>
-          <li><a href="#/whyus">Why Us</a></li>
-          <li><a href="#/services">Services</a></li>
-          <li><a href="#/clients">Clients</a></li>
-          <li><a href="#/opportunities">Opportunities</a></li>
-          <li><a href="#/approach">Approach</a></li>
-          <li><a href="#/aboutus">About Us</a></li>
-          <li><a href="#/contactus">Contact Us</a></li>
-        </ul>
-      </div>
+            <ul class="nav navbar-nav navbar-right" >
+              <li><a class="visible-xs" href="#/" id="menu" >Home</a>
+              <li><a href="#/whyus">Why Us</a></li>
+              <li><a href="#/services">Services</a></li>
+              <li><a href="#/clients">Clients</a></li>
+              <li><a href="#/opportunities">Opportunities</a></li>
+              <li><a href="#/approach">Approach</a></li>
+              <li><a href="#/aboutus">About Us</a></li>
+              <li><a href="#/contactus">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div ng-view class="main-content"></div>
     </div>
-  </nav>
-  <div ng-view class="main-content"></div>
-  <footer class="footer">
-      <a href="#/legal" class="legal">Legal</a>
-    	© Copyright 2016 Hermes Technologies, Inc. All rights Reserved.
-  </footer>
+    <div id="footer">
+        <footer class="footer">
+            <a href="#/legal" class="legal">Legal</a>
+        	   © Copyright 2016 Hermes Technologies, Inc. All rights Reserved.
+        </footer>
+    </div>
+  </div>
 <script src="app/jquery.min.js"></script>
 <script src="angular/angular.js"></script>
 <script src="angular/angular-route.js"></script>
